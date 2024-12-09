@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        character = GameObject.FindGameObjectWithTag("Character").transform;
     }
 
     // Update is called once per frame
